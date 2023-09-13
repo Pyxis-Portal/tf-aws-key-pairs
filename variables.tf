@@ -6,7 +6,6 @@ variable "key_name" {
 
 variable "key_file_name" {
   description = "(Required) The path to the file that will be created. Missing parent directories will be created. If the file already exists, it will be overridden with the given content."
-  default     = null
   type        = string
 }
 
